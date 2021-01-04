@@ -12,6 +12,8 @@
       echo $_GET['id'];
        ?>
     </h2>
-    HTML, CSS, JavaScript
+    <?php
+    echo file_get_contents("data/".$_GET['id']);
+     ?>
   </body>
 </html>
